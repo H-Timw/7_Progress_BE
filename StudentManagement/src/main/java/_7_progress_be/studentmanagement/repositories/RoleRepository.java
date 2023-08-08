@@ -1,0 +1,9 @@
+package _7_progress_be.studentmanagement.repositories;
+
+import _7_progress_be.studentmanagement.model.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface RoleRepository extends JpaRepository<Role, Long> {
+}
